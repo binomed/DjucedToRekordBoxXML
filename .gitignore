@@ -1,0 +1,21 @@
+# Personal DJUCED data - large, user-specific, do not commit
+DJUCED.db
+
+# Generated output
+output_rekordbox.xml
+*.xml
+
+# Old intermediate exports from the previous (JSON-based) approach - unused
+tracks.json
+cues.json
+playlists.json
+
+# Reference material pulled from elsewhere / not ours to redistribute
+xml_format_list.pdf
+
+# OS / editor cruft
+.DS_Store
+node_modules/
+
+# Local Claude Code settings
+.claude/
